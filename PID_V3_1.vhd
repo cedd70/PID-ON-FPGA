@@ -19,10 +19,10 @@ entity PID_V3_1 is
 		------------ Input ------------ 
 		clock,
 		reset			: in std_logic;
-		difference_in	   	: in std_logic_vector(31 downto 0 );	-- consigne - erreure => comprise entre -2147483647 to 2147483647
+		difference_in	   	: in std_logic_vector(31 downto 0 );
 		------------ Output ------------ 
-		consigne_end		: out std_logic:='0';			-- si consigne atteinte passe à 1
-		commande_out		: out std_logic_vector(31 downto 0 )	-- consigne position comprise entre -2147483647 to 2147483647
+		consigne_end		: out std_logic:='0';
+		commande_out		: out std_logic_vector(31 downto 0 )
 	);
 
 end entity;
