@@ -11,3 +11,9 @@ Output :
 
     	consigne_end    ->		bit
 	commande_out	  -> std vector 32 bit
+
+generic	:
+
+	Kp
+	Ki
+	Kd
