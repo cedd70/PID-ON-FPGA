@@ -1,3 +1,3 @@
-# PID-ON-FPGA
+# PID ON FPGA
 
 
